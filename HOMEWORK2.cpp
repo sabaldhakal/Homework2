@@ -1,15 +1,18 @@
 #include<limits>
 #include<iostream>
-
+//This program sets up simple variables that can hold certain types of values, then prints out the ranges of values each of these data types support. Min values to maximum values each data type can hold.
 int main()
 {
-    char c = 'A';
+	//Part 1: Assigning data types.
+    char c = 'A';			
     signed int x = -2;
     unsigned int y = 3;
     bool b = false;
     double d = 232.4332;
     float f = 2.124f;
-    
+    	
+	//Part 2: Exploring the Ranges of Values. Minimum value to the maximum value a data type can hold
+
        	std::cout << "type\t\t\t\tlowest\t\t\thighest\n";
         std::cout << "bool\t\t\t\t"
         << std::numeric_limits<bool>::min() << "\t\t\t"
